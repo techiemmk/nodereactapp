@@ -1,0 +1,12 @@
+{
+  "name": "nodereactapp",
+  "version": "1.0.0",
+  "description": "sample node react app",
+  "main": "server.js",
+  "scripts": {
+  	"start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maghin",
+  "license": "ISC"
+}
