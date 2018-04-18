@@ -117,7 +117,7 @@ class WeatherApp extends Component {
 
     getWeather(){
         if(this.state.cityName !== null && this.state.cityName !== ''){
-            var queryString = `http://api.openweathermap.org/data/2.5/weather?APPID=${allContent.api_key}&q=${this.state.cityName}`;
+            var queryString = `https://api.openweathermap.org/data/2.5/weather?APPID=${allContent.api_key}&q=${this.state.cityName}`;
             console.log(queryString);
             fetch(queryString).then(response => response.json()).then(json => this.setResult(json));
         }
