@@ -1,11 +1,21 @@
 html, body {
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
 }
 
 .mainbg {
     background: url('/img/homepage_moon.jpg') center center no-repeat;
     width: 100%;
+=======
+    overflow: auto;
+}
+
+.mainbg {
+    background: url('/img/homepage_moon.jpg') center center;
+    width: 100%;
+    height: 100%;
+>>>>>>> f22e0b8634ccaaa478370d9771f9e5a5db228115
     background-size: cover;
     color: rgb(106, 167, 218);
 }
@@ -14,30 +24,58 @@ html, body {
     background: url('/img/clearsky.jpg') center center no-repeat;
     background-size: cover;
     color: white;
+<<<<<<< HEAD
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> f22e0b8634ccaaa478370d9771f9e5a5db228115
 }
 
 .sunnybg {
     background: url('/img/brightday.jpg') center center no-repeat;
     background-size: cover;
     color: white;
+<<<<<<< HEAD
 }
 
 .cloudybg {
     background: url('/img/cloudyday.jpg') center center no-repeat;
     background-size: cover;
     color: black;
+=======
+    width: 100%;
+    height: 100%;
+}
+
+.cloudybg {
+    background: url('/img/cloudyday.jpg') center center;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100%;
+>>>>>>> f22e0b8634ccaaa478370d9771f9e5a5db228115
 }
 
 .mistybg {
     background: url('/img/mistyday.jpg') center center no-repeat;
     background-size: cover;
     color: black;
+<<<<<<< HEAD
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> f22e0b8634ccaaa478370d9771f9e5a5db228115
 }
 
 .rainybg {
     background: url('/img/raindrops.jpg') center center no-repeat;
     background-size: cover;
     color: white;
+<<<<<<< HEAD
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> f22e0b8634ccaaa478370d9771f9e5a5db228115
 }
 
 #pageHeading p {
@@ -50,15 +88,27 @@ html, body {
 #inputForm form {
     padding-top: 5%;
     text-align: center;
+<<<<<<< HEAD
 }
 
 #inputForm .form-inline {
+=======
+    position: relative;
+}
+
+#inputForm .form-inline {
+    padding-top: 5%;
+>>>>>>> f22e0b8634ccaaa478370d9771f9e5a5db228115
     display: block;
 }
 
 #inputForm .btn {
     background-color: rgba(161, 186, 226, 0.25);
+<<<<<<< HEAD
     margin-left: 5px;
+=======
+    margin: 5px;
+>>>>>>> f22e0b8634ccaaa478370d9771f9e5a5db228115
 }
 
 #backToHome .form-inline {
